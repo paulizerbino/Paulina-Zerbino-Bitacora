@@ -37,18 +37,18 @@ print(pinguinos.describe())
 print(pinguinos.columns)
 
 # Filtrar filas por condición
-filtro = pinguinos[pinguinos["largo_pico_mm"] > 40]
+filtro = pinguinos[pinguinos["edad"] > 30]
 print(filtro)
 
 # Seleccionar columnas específicas
-print(pinguinos[["especie", "isla"]])
+print(pinguinos[["nombre", "edad"]])
 
 # Contar valores únicos
-print(pinguinos["isla"].value_counts())
+print(pinguinos["ciudad"].value_counts())
 
 # Eliminar valores nulos
 pinguinos = pinguinos.dropna()
 
 # Rellenar valores nulos
-pinguinos["largo_pico_mm"] = pinguinos["largo_pico_mm"].fillna(pinguinos["largo_pico_mm"].mean())
+pinguinos["edad"] = pinguinos["edad"].fillna(pinguinos["edad"].mean())
 # %%
