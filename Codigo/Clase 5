@@ -21,7 +21,7 @@ if not ruta_csv.exists():
     raise FileNotFoundError(f"No se encontró el archivo en: {ruta_csv}")
 
 # 4. Cargar el archivo CSV
-df = pd.read_csv(ruta_csv)
+df = pd.read_csv(ruta_csv, sep=";")
 
 # 5. Inspección inicial de los datos
 print(f"--- Archivo cargado exitosamente desde: {ruta_csv.name} ---")
@@ -35,9 +35,12 @@ df.info()
 df.shape
 
 # 5.2. Filas únicas: detectando la columna que contiene el ID (Equivalente a length(unique(...)))
+df["id"]=df["cod_detector"].astype(str) + "-" + df["id_carril"].astype(str)
 # Si df["columna"].nunique() es igual a len(df), esa columna es un ID único
 print("\nValores únicos por columna (Buscar candidatos a ID):")
+df["id"].nunique()
 print(df.nunique())
+df.info()
 
 # 5.3 Datos faltantes
 
