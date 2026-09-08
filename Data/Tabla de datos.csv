@@ -1,0 +1,17 @@
+Variable,Tipo,Valores,Faltante,Preguntas
+id,entero,"1, 2, ...",NA,
+estudiante_bin,binaria,"TRUE, FALSE",NA,¿Sos actualmente estudiante de la Universidad de Montevideo? SI / NO
+fecha_nac,cuantitativa,fecha de nacimiento,NA,Cual es tu fecha de nacimiento? En formato dd/mm/yyyy
+frecuencia,ordinal,"nunca 
+1 a 3 veces
+4 a 8 veces
+mas de 8 veces",NA si frecuencia = NUNCA,"¿Cuántas veces por semana concurrís a la cantina, en una semana regular de clases?"
+atencion,ordinal,1 < 2 < 3 < 4 < 5,NA si frecuencia = NUNCA,"¿Cómo calificarías la atención del personal de la cantina, en una escala de 1 (muy mala) a 5 (muy buena)?"
+"prod_cafe ,
+prod_comida ,
+prod_frias ,
+prod_otros",binaria x4,"0,1",NA si frecuencia = NUNCA,"¿Qué tipo de productos consumís habitualmente cuando vas a la cantina? (café/bebidas calientes, comida, bebidas frías, otros)"
+"pago_efectivo, 
+pago_tarjeta,
+pago_transferencia",binaria x3,"0, 1",NA si frecuencia = NUNCA,"¿Con qué medio de pago solés pagar en la cantina? (efectivo, tarjeta, transferencia)"
+mejora,texto,libre,vacio,¿Qué cambiarías o mejorarías de la cantina de la universidad?

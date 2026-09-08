@@ -1,0 +1,21 @@
+id,estudiante_bin,fecha_nac,frecuencia,atencion,prod_cafe,prod_comida,prod_frias,prod_otros,pago_efectivo,pago_tarjeta,pago_transferencia,mejora
+1,TRUE,09/12/1998,1 a 3 veces,2,0,0,1,0,1,0,0,Mejorar la atencion del personal
+2,TRUE,07/09/1998,4 a 8 veces,5,1,0,1,1,0,0,1,Ampliar el horario de atencion
+3,TRUE,04/06/2001,nunca,NA,NA,NA,NA,NA,NA,NA,NA,
+4,TRUE,09/10/2003,4 a 8 veces,4,0,1,0,1,1,0,0,Mas variedad de opciones vegetarianas
+5,TRUE,28/02/2002,1 a 3 veces,1,1,1,1,1,0,1,1,Mejorar la atencion del personal
+6,TRUE,21/10/1999,1 a 3 veces,2,0,1,1,1,0,1,0,Mejorar la atencion del personal
+7,TRUE,09/07/2003,nunca,NA,NA,NA,NA,NA,NA,NA,NA,
+8,FALSE,11/12/2007,1 a 3 veces,4,1,1,0,1,0,0,1,"Nada, esta todo bien"
+9,TRUE,12/07/2007,1 a 3 veces,2,1,0,0,0,0,0,1,"Nada, esta todo bien"
+10,TRUE,15/10/2004,1 a 3 veces,5,0,0,1,1,0,1,1,Reducir el tiempo de espera en las horas pico
+11,TRUE,25/09/2002,1 a 3 veces,1,1,0,0,1,0,0,1,Agregar mas mesas para sentarse
+12,TRUE,08/05/2003,nunca,NA,NA,NA,NA,NA,NA,NA,NA,
+13,TRUE,24/02/1999,1 a 3 veces,1,0,0,1,0,1,1,0,Bajar los precios del cafe
+14,TRUE,10/12/2001,1 a 3 veces,3,1,1,0,0,0,0,1,Mas variedad de opciones vegetarianas
+15,TRUE,08/10/2001,nunca,NA,NA,NA,NA,NA,NA,NA,NA,
+16,TRUE,03/04/1998,mas de 8 veces,3,0,0,1,1,0,0,1,Mejorar la atencion del personal
+17,TRUE,04/04/2004,nunca,NA,NA,NA,NA,NA,NA,NA,NA,
+18,TRUE,15/07/2004,4 a 8 veces,1,0,0,1,1,1,0,0,Mejorar la atencion del personal
+19,TRUE,06/07/2000,1 a 3 veces,2,0,1,0,0,1,0,0,Reducir el tiempo de espera en las horas pico
+20,TRUE,28/04/2005,1 a 3 veces,1,0,1,0,1,1,1,1,Mejorar la higiene del lugar
